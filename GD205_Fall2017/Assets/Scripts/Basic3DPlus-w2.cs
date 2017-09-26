@@ -2,15 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Basic3DPlus : MonoBehaviour {
+public class Basic3DPlus-w2 : MonoBehaviour {
 
 	public GameObject mover;
 	public int movementAmt = 1;
 	public Vector3 startingPosition;
 	public GameObject winSpot;
-	public GameObject[] enemies;
-	public GameObject bg;
-	public float enemySpeed = 0.1f;
 
 	// Use this for initialization
 	void Start () {
@@ -25,7 +22,7 @@ public class Basic3DPlus : MonoBehaviour {
 			mover.transform.position.z > 6 || //is it too far off the grid?
 			mover.transform.position.x < -2 || //is it too far left of the grid?
 			mover.transform.position.x > 3) { //is it too far right of the grid?
-				mover.transform.position = startingPosition; //if any of those are true... reset it's position to the starting position
+			mover.transform.position = startingPosition; //if any of those are true... reset it's position to the starting position
 		}
 
 		//check if mover's transform.position has the same...
@@ -37,22 +34,7 @@ public class Basic3DPlus : MonoBehaviour {
 			Debug.Log ("win?"); //give us a console message
 
 			mover.GetComponent<MeshRenderer> ().material.color = Color.red; //access the color through 
-			mover.transform.localScale *= 1.01f;
-
-			newLevel ();
 		}
-		for (int i = 0; i < enemies.Length; i++) {
-			if (mover.transform.position == enemies[i].transform.position) { //is mover in same position as enemy?
-				mover.transform.position = startingPosition; 
-			}
-
-			if (enemies[i].transform.position.x > -2) {
-				enemies[i].transform.position += new Vector3 (-enemySpeed, 0, 0);
-			} else {
-				enemies[i].transform.position = new Vector3 (3, enemies[i].transform.position.y, enemies[i].transform.position.z);
-			}
-		}
-
 		if (Input.GetKeyDown("left")) {
 			Debug.Log ("left arrow pressed down");
 			mover.transform.position += new Vector3(-movementAmt,0,0);
@@ -68,18 +50,6 @@ public class Basic3DPlus : MonoBehaviour {
 		if (Input.GetKeyDown("down")) {
 			Debug.Log ("down arrow pressed down");
 			mover.transform.position += new Vector3(0,0,-movementAmt);
-		}
-
-
-	}
-	void newLevel(){
-		mover.transform.position = startingPosition; 
-		mover.GetComponent<MeshRenderer> ().material.color = new Color(Random.Range(0f,1f),Random.Range(0f,1f),Random.Range(0f,1f), 1F);
-		bg.GetComponent<MeshRenderer> ().material.color = new Color(Random.Range(0f,1f),Random.Range(0f,1f),Random.Range(0f,1f), 1F);
-		enemySpeed += 0.05f;
-
-		for (int i = 0; i < enemies.Length; i++) {
-			enemies [i].transform.position = new Vector3 (Random.Range (-2, 3), enemies [i].transform.position.y, Random.Range (1, 6));
-		}
+		} 
 	}
 }
