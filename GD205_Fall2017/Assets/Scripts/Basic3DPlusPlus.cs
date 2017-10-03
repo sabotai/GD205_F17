@@ -11,6 +11,8 @@ public class Basic3DPlusPlus : MonoBehaviour {
 	public GameObject[] enemies;
 	public GameObject bg;
 	public float enemySpeed = 0.1f;
+	public AudioSource moverAudSrc;
+	public AudioClip boomSound;
 
 	// Use this for initialization
 	void Start () {
@@ -47,6 +49,7 @@ public class Basic3DPlusPlus : MonoBehaviour {
 		for (int i = 0; i < enemies.Length; i++) {
 			if (mover.transform.position == enemies[i].transform.position) { //is mover in same position as enemy?
 				mover.transform.position = startingPosition; 
+				moverAudSrc.PlayOneShot(boomSound, 0.7F);
 			}
 
 			if (enemies[i].transform.position.x > -2) {
