@@ -14,7 +14,7 @@ public class Thrust : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		if (Input.GetKey (KeyCode.W)) {
 			rb.AddForce (Vector3.forward * thrustAmt);
 		}
