@@ -14,7 +14,8 @@ public class DestroyCollide : MonoBehaviour {
 		
 	}
 
+	//OnCollisionEnter will run each time the GameObject this is attached to collides with something
 	void OnCollisionEnter(Collision collisionReport){
-		Destroy(collisionReport.gameObject);
+		Destroy(collisionReport.gameObject); //destroy the gameobject that was collided with as stored in the collisionreport
 	}
 }
