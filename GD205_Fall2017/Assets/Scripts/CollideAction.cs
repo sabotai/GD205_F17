@@ -20,10 +20,10 @@ public class CollideAction : MonoBehaviour {
 
 	void OnCollisionEnter(Collision collisionReport){
 		Debug.Log ("ya done collid'd");
-		myAudio.PlayOneShot(boomSound, 0.7F);
+		myAudio.PlayOneShot(boomSound, 0.7F); //play the boom sound upon any collision
 
-		if (collisionReport.gameObject.tag == "spherez") {
-			myAudio.PlayOneShot(sphereCollide, 0.7F);
+		if (collisionReport.gameObject.tag == "spherez") { //check the collisionReport to see if the GameObject collided with was tagged with "spherez"
+			myAudio.PlayOneShot(sphereCollide, 0.7F); //if so, play the sphereCollide audioclip
 		}
 	}
 }
