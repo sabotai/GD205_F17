@@ -5,7 +5,7 @@ using UnityEngine;
 public class Laser : MonoBehaviour {
 
 	public GameObject prefab;
-	
+
 	void Start () {
 		
 	}
