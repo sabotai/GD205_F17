@@ -1,0 +1,114 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 23.08.2016 12:19:24
+
+newmtl Ruins_Main_01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Ruins OBJ\textures\Ruins_Main_01.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Ruins OBJ\textures\Ruins_Main_01.jpg
+
+newmtl Ruins_Main_02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Ruins OBJ\textures\Ruins_Main_02.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Ruins OBJ\textures\Ruins_Main_02.jpg
+
+newmtl Tap
+	Ns 35.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.4500 0.4500 0.4500
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Ruins OBJ\textures\Tap.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Ruins OBJ\textures\Tap.jpg
+
+newmtl Balcony_Railing
+	Ns 20.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.2700 0.2700 0.2700
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Ruins OBJ\textures\Balcony_Rail.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Ruins OBJ\textures\Balcony_Rail.jpg
+
+newmtl Roof_Tiles
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Ruins OBJ\textures\Roof_Tiles.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Ruins OBJ\textures\Roof_Tiles.jpg
+
+newmtl Ruins_Steps
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Ruins OBJ\textures\Ruins_Steps.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Ruins OBJ\textures\Ruins_Steps.jpg
+
+newmtl Rubble_02
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Ruins OBJ\textures\Rubble_02.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Ruins OBJ\textures\Rubble_02.jpg
+
+newmtl Rubble_01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\hypnagogia\Desktop\Ruins OBJ\textures\Rubble_01.jpg
+	map_Kd C:\Users\hypnagogia\Desktop\Ruins OBJ\textures\Rubble_01.jpg

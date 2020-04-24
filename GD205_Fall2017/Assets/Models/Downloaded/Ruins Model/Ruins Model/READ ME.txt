@@ -1,0 +1,23 @@
+************************************************************************************************
+
+Thank you for downloading "Ruins" Model
+
+Model created by Mark Fowler(hypnagogia), published 23/08/2016.
+Created with 3ds Max 2012.
+Contact Email: hypnagogia@hotmail.com
+Gallery Link: http://www.sharecg.com/pf/full_uploads.php?pf_user_name=hypnagogia
+
+
+Includes: Ruins and Rubble props in OBJ format. High Resolutions jpeg texture files (diffuse + normals).
+
+Please note: 3ds max 2012 exports obj and mtl files with opacity set to zero by default, so if objects appear invisible please
+just turn it back to a value of 100. Normal maps to be applied manually.
+ 
+
+Usage rights: Commercial Renders OK, Contents not for Redistribution. Not to be sold. 
+
+Donations are welcome and very much appreciated. Please Donate via paypal to hypnagogia@hotmail.com 
+
+Thanks and Enjoy!
+
+*************************************************************************************************
